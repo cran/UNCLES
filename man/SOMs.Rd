@@ -1,29 +1,34 @@
-\name{mseclusters}
-\alias{mseclusters}
+\name{SOMs}
+\alias{SOMs}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{MSE Clusters}
+\title{SOMs}
 \description{
-Calculate the MSE values for clusters.
+Perform self-organising maps (SOMs) clustering
 }
 \usage{
-mseclusters(X, B, normalise = TRUE)
+SOMs(X, K, topo = "hexagonal", rlen = 100, alpha = c(0.05, 0.01),
+    n.hood = "circular")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{X}{
 %%     ~~Describe \code{X} here~~
 }
-  \item{B}{
-%%     ~~Describe \code{B} here~~
+\item{K}{
+%%     ~~Describe \code{K} here~~
 }
-  \item{normalise}{
-%%     ~~Describe \code{normalise} here~~
+\item{topo}{
+
 }
+\item{rlen}{
+
 }
-\examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+\item{alpha}{
+
+}
+\item{n.hood}{
+
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

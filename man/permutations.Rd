@@ -1,36 +1,26 @@
-\name{clusterDataset}
-\alias{clusterDataset}
+\name{permutations}
+\alias{permutations}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Cluster Dataset}
+\title{permutations}
 \description{
-Cluster a single dataset
+Finds all permutations of numbers 1 to n
 }
 \usage{
-clusterDataset(X, K, D = 0, methods = list(kmeansKA))
+permutations(n)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{X}{
-%%     ~~Describe \code{X} here~~
-}
-  \item{K}{
-%%     ~~Describe \code{K} here~~
-}
-  \item{D}{
-%%     ~~Describe \code{D} here~~
-}
-  \item{methods}{
-%%     ~~Describe \code{methods} here~~
+  \item{n}{
+%%     ~~Describe \code{n} here~~
 }
 }
-
 \examples{
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (X, K, D = 0, methods = c("HC-Ward", "kmeans", "SOMs")) 
+function (n)
 {
     return(NULL)
   }

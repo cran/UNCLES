@@ -1,36 +1,29 @@
-\name{clusterDataset}
-\alias{clusterDataset}
+\name{factors}
+\alias{factors}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Cluster Dataset}
+\title{factors}
 \description{
-Cluster a single dataset
+Find the factors of a number. If (primesonly) was true, it gives prime factors only. Otherwise, it gives all factors
 }
 \usage{
-clusterDataset(X, K, D = 0, methods = list(kmeansKA))
+factors(n, primeonly = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{X}{
-%%     ~~Describe \code{X} here~~
+  \item{n}{
+%%     ~~Describe \code{n} here~~
 }
-  \item{K}{
-%%     ~~Describe \code{K} here~~
-}
-  \item{D}{
-%%     ~~Describe \code{D} here~~
-}
-  \item{methods}{
-%%     ~~Describe \code{methods} here~~
+  \item{primeonly}{
+%%     ~~Describe \code{primeonly} here~~
 }
 }
-
 \examples{
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (X, K, D = 0, methods = c("HC-Ward", "kmeans", "SOMs")) 
+function (n, primeonly = FALSE)
 {
     return(NULL)
   }

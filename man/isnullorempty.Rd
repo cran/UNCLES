@@ -1,36 +1,26 @@
-\name{clusterDataset}
-\alias{clusterDataset}
+\name{isnullorempty}
+\alias{isnullorempty}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Cluster Dataset}
+\title{isnullorempty}
 \description{
-Cluster a single dataset
+Checks if the input matrix, vector, or list X is NULL or empty
 }
 \usage{
-clusterDataset(X, K, D = 0, methods = list(kmeansKA))
+isnullorempty(X)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{X}{
 %%     ~~Describe \code{X} here~~
 }
-  \item{K}{
-%%     ~~Describe \code{K} here~~
 }
-  \item{D}{
-%%     ~~Describe \code{D} here~~
-}
-  \item{methods}{
-%%     ~~Describe \code{methods} here~~
-}
-}
-
 \examples{
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (X, K, D = 0, methods = c("HC-Ward", "kmeans", "SOMs")) 
+function (X)
 {
     return(NULL)
   }

@@ -1,39 +1,28 @@
-\name{clusterDataset}
-\alias{clusterDataset}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{Cluster Dataset}
+\name{clustVec2partMat}
+\alias{clustVec2partMat}
+
+\title{clustVec2partMat}
 \description{
-Cluster a single dataset
+Converts a clustering result vector to a partition matrix
 }
 \usage{
-clusterDataset(X, K, D = 0, methods = list(kmeansKA))
+clustVec2partMat(C)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{X}{
-%%     ~~Describe \code{X} here~~
-}
-  \item{K}{
-%%     ~~Describe \code{K} here~~
-}
-  \item{D}{
-%%     ~~Describe \code{D} here~~
-}
-  \item{methods}{
-%%     ~~Describe \code{methods} here~~
+  \item{C}{
+%%     ~~Describe \code{C} here~~
 }
 }
-
 \examples{
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (X, K, D = 0, methods = c("HC-Ward", "kmeans", "SOMs")) 
-{
+function(C) {
     return(NULL)
-  }
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

@@ -1,36 +1,32 @@
-\name{clusterDataset}
-\alias{clusterDataset}
+\name{KA}
+\alias{KA}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Cluster Dataset}
+\title{KA}
 \description{
-Cluster a single dataset
+Perform Kaufman's initialisation for k-means clustering
 }
 \usage{
-clusterDataset(X, K, D = 0, methods = list(kmeansKA))
+KA(X,K,distancemetric)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{X}{
 %%     ~~Describe \code{X} here~~
 }
-  \item{K}{
+\item{K}{
 %%     ~~Describe \code{K} here~~
 }
-  \item{D}{
-%%     ~~Describe \code{D} here~~
-}
-  \item{methods}{
-%%     ~~Describe \code{methods} here~~
+\item{distancemetric}{
+%%     ~~Describe \code{distancemetric} here~~
 }
 }
-
 \examples{
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (X, K, D = 0, methods = c("HC-Ward", "kmeans", "SOMs")) 
+function (X,K,distancemetric)
 {
     return(NULL)
   }

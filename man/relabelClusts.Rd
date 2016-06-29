@@ -6,14 +6,15 @@
 Relabel clusters
 }
 \usage{
-relabelClusts(Ref, Input, technique, X, distCriterion)
+relabelClusts(ref, input, technique = "minmin", X = numeric(),
+                 distCriterion = "direct_euc")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{Ref}{
+  \item{ref}{
 %%     ~~Describe \code{Ref} here~~
 }
-  \item{Input}{
+  \item{input}{
 %%     ~~Describe \code{Input} here~~
 }
   \item{technique}{

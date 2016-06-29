@@ -6,7 +6,7 @@
 Binarise
 }
 \usage{
-binarise(U, K, strategy, parameter)
+binarise(U, K, technique = "DTB", parameter = 0.0)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -16,8 +16,8 @@ binarise(U, K, strategy, parameter)
   \item{K}{
 %%     ~~Describe \code{K} here~~
 }
-  \item{strategy}{
-%%     ~~Describe \code{strategy} here~~
+  \item{technique}{
+%%     ~~Describe \code{technique} here~~
 }
   \item{parameter}{
 %%     ~~Describe \code{parameter} here~~
@@ -29,7 +29,7 @@ binarise(U, K, strategy, parameter)
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (U, K, strategy, parameter) 
+function (U, K, technique, parameter) 
 {
     return(NULL)
   }

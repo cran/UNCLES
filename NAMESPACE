@@ -1,1 +1,7 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("stats", "dist", "kmeans", "sd", "spline", "median", "quantile", "cutree", "hclust")
+importFrom("pdist", "pdist")
+importFrom("grDevices", "dev.new")
+importFrom("graphics", "par", "plot.default", "points")
+importFrom("kohonen", "som")
+importFrom("class", "somgrid")
